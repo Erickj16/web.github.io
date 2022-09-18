@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to  right, #0bab64, #3bb78f);
+}
+
+.centrado{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.caja{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 40px;
+    height: 600px;
+    background-color: white;
+}
+
+
+
+
+.flor{
+    width: 100%;
+    height: 580px;
+   object-fit: cover;
+    position: relative;
+}
+
+.header{
+    /*height: 40vw;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;*/
+
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.caja2{
+    border-radius: 15px;
+    padding: 40px;
+    margin: 40px;
+    height: 600px;
+    background-color: white;
+}
+
+.caja3{
+    border-radius: 15px;
+    padding: 40px;
+    margin: 40px;
+    height: 600px;
+    background-color: white;
+}
+
+.card{
+    width: 400px;
+    overflow: hidden;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.6);
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+header::before{
+    content: '';
+    position: absolute;
+    border-top: 30px solid transparent;
+    border-left: 400px solid white;
+    bottom: 0;
+}
+
+section{
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+header img{
+    width: 100%;
+    height: 199px;
+}
+
+section h2{
+    margin: .5em 0;
+}
+
+section p{
+    margin: 1em 0;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #314652;
+    color: white;
+    position: relative;
+}
+
+footer::before{
+    content: '';
+    position: absolute;
+    border-bottom: 30px solid transparent;
+    border-right: 400px solid white;
+    top: 0;
+}
+
+footer p{
+    padding: 30px;
+}
